@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+  }
+  
+  .headercontainer {
+    width: 100%;
+    height: 50px;
+    /* border: solid; */
+    display: flex;
+  }
+  
+  header {
+    height: 50px;
+    width: 100%;
+  }
+  
+  /* .headerlogo {
+    width: 300px;
+    height: 70px;
+    border: solid;
+  } */
+  
+  header ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  header li {
+    padding: 20px;
+  }
+  
+  header .logos {
+    margin-left: 100px;
+    display: flex;
+  }
+  
+  .logo1 {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  header a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .box1 {
+    height: 500px;
+    width: auto;
+    position: relative;
+  }
+  
+  .slideshow-container img {
+    height: 500px;
+    width: 100%;
+  }
+  .cloth {
+    width: 100%;
+    height: 700px;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  #form{
+      margin-top: 20px;
+      padding-top: 5px;
+      border: solid;
+  }
+
+  .names{
+      border: solid red;
+  }
+
+  input{
+      width: 500px;
+      height: 50px;
+      border-style: groove;
+      border-radius: 10px;
+  }

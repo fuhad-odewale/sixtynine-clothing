@@ -1,0 +1,41 @@
+/* for phone */
+@media (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    width: 100%;
+    background-color: blue;
+    /* overflow: hidden; */
+  }
+
+  header {
+    height: 20px;
+    background-color: yellow;
+    border: solid;
+  }
+
+  .headercontainer {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    border: solid red;
+  }
+
+  .headerlogo {
+    width: 100%;
+  }
+
+  header ul {
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 300px; */
+  }
+/* 
+  header li {
+    padding: 20px;
+  } */
+}
