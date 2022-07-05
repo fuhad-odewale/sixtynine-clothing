@@ -13,16 +13,17 @@ body {
   /* background-color: rgb(148, 23, 23); */
 }
 
+header {
+  height: 70px;
+  width: 100%;
+  position: sticky;
+}
+
 .headercontainer {
   width: 100%;
   height: 60px;
   /* border: solid; */
   display: flex;
-}
-
-header {
-  height: 70px;
-  width: 100%;
 }
 
 .headerlogo {
@@ -87,7 +88,7 @@ a:hover {
 }
 a:active {
   color: yellow;
-  background-color: transparent;z
+  background-color: transparent;
   text-decoration: underline;
 }
 
