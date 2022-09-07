@@ -247,7 +247,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   scroll-behavior: smooth;
-  border: solid;
+  /* border: solid; */
 }
 
 .product-container::-webkit-scrollbar {
