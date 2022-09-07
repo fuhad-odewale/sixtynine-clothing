@@ -509,7 +509,7 @@ img {
   padding: 20px 0;
   margin-top: 20px;
   font-family: "Cuprum", sans-serif;
-  border: solid blue;
+  /* border: solid blue; */
 }
 
 .product-container {
@@ -520,7 +520,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   scroll-behavior: smooth;
-  border: solid;
+  /* border: solid; */
 }
 
 .product-container::-webkit-scrollbar {
@@ -644,7 +644,7 @@ img {
   transform: translateX(-50% -50%);
   text-align: center;
   color: #fff;
-  font-size: 30px;
+  font-size: 38px;
   text-transform: capitalize;
   font-family: 'Comforter', cursive;
 }
